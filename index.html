@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Computers Blog — Article</title>
+  <link rel="icon" href="favicon.jpg" type="image/jpeg">
+
+  <style>
+    /* === BACKGROUND === */
+    body {
+      background: radial-gradient(circle at top left, #dff4ff 0%, #cdeedc 40%, #f5e8ff 100%);
+      font-family: "Inter", sans-serif;
+      color: rgba(0, 0, 0, 0.9);
+      margin: 0;
+      padding: 0;
+    }
+
+    /* === NAVBAR === */
+    nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 18px;
+      background: rgba(255, 255, 255, 0.15);
+      padding: 14px 24px;
+      border-radius: 18px;
+      backdrop-filter: blur(14px) saturate(180%);
+      -webkit-backdrop-filter: blur(14px) saturate(180%);
+      border: 1px solid rgba(255, 255, 255, 0.4);
+      box-shadow: 0 10px 40px rgba(0, 200, 255, 0.15);
+      margin: 25px auto;
+      width: fit-content;
+    }
+
+    nav a {
+      color: #003366;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 10px 20px;
+      border-radius: 12px;
+      background: rgba(255, 255, 255, 0.25);
+      transition: all 0.3s ease;
+    }
+
+    nav a:hover {
+      background: rgba(255, 255, 255, 0.55);
+      transform: translateY(-3px);
+      color: #0044aa;
+      box-shadow: 0 6px 25px rgba(0, 180, 255, 0.25);
+    }
+
+    /* === BLOG CONTAINER === */
+    .blog-container {
+      max-width: 800px;
+      margin: 40px auto;
+      background: rgba(255, 255, 255, 0.25);
+      border-radius: 20px;
+      backdrop-filter: blur(18px) saturate(180%);
+      -webkit-backdrop-filter: blur(18px) saturate(180%);
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      padding: 40px;
+      box-shadow: 0 10px 40px rgba(0, 180, 255, 0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #002244;
+      font-family: "Roboto Slab", serif;
+      border-bottom: 3px solid rgba(255, 255, 255, 0.4);
+      padding-bottom: 10px;
+    }
+
+    h2 {
+      color: #004466;
+      border-left: 5px solid rgba(0, 180, 255, 0.4);
+      padding-left: 10px;
+      margin-top: 30px;
+    }
+
+    p {
+      line-height: 1.7;
+      color: rgba(0, 0, 0, 0.85);
+    }
+
+    /* === BUTTONS === */
+    .button {
+      display: inline-block;
+      background: rgba(255, 255, 255, 0.3);
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      padding: 10px 20px;
+      border-radius: 14px;
+      color: #004466;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+
+    .button:hover {
+      background: rgba(255, 255, 255, 0.6);
+      color: #0055aa;
+      transform: scale(1.05);
+      box-shadow: 0 8px 25px rgba(0, 180, 255, 0.25);
+    }
+
+    /* === FOOTER === */
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: rgba(0, 0, 0, 0.65);
+    }
+
+    /* === MOBILE RESPONSIVE === */
+    @media (max-width: 600px) {
+      .blog-container {
+        margin: 20px;
+        padding: 20px;
+      }
+      nav {
+        flex-direction: column;
+        align-items: center;
+      }
+      nav a {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a href="https://computersblog.github.io/">🏠 Home</a>
+    <a href="https://computersblog.github.io/learn/">📘 Learn</a>
+    <a href="#">📰 Blog</a>
+  </nav>
+
+  <div class="blog-container">
+    <h1>🌿 The Computers Blog</h1>
+    <p><em>Posted on October 31, 2025 • by VBProgrammer</em></p>
+
+    <h2>Introduction</h2>
+    <p>Welcome to the official Computers Blog! Here, we share everything about the digital world — from the history of computers to modern web technologies. This article blends the essence of our Green, Blue, and Purple designs into one clean, glassy experience.</p>
+
+    <h2>The Power of the Web</h2>
+    <p>The internet has transformed how we learn, work, and create. From HTML and CSS to AI and virtual reality — every part of computing connects us in ways that were once impossible.</p>
+
+    <h2>What’s Next?</h2>
+    <p>We’re building new sections to help everyone learn step-by-step — from beginners exploring coding to curious minds diving into how the web really works. Stay tuned for more posts!</p>
+
+    <a href="https://computersblog.github.io/" class="button">← Back to Main Site</a>
+  </div>
+
+  <footer>
+    <p>© 2025</p>
+  </footer>
+</body>
+</html>
